@@ -1,0 +1,78 @@
+body {
+  background: #e8e8e8;
+}
+
+#vision-board {
+  background: url("file:///Users/sharokmcdonnaugh/Desktop/html-css-vision-board-starter-code/img/background.png");
+  width: 1200px;
+  height: 850px;
+  margin: 50px 0;
+  overflow: auto;
+  background-size: cover;
+  text-transform: uppercase;
+  font-family: "Montserrat", sans-serif;
+}
+
+.block {
+  /*outline: 1px dashed green; */
+  float: left;
+  padding: 0; /*** adjust ***/
+  width: 350px; /*** adjust ***/
+}
+
+.small-block {
+  height: 210px;
+  padding: 15px; /*** adjust ***/
+}
+
+.big-block {
+  height: 430px;
+  padding: 15px; /*** adjust ***/
+}
+
+.center {
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+.white {
+  background: white;
+  color: black;
+}
+
+.highlight {
+  background: #fff44f;
+  font-size: 18px;
+  padding-left: 5px;
+  font-weight: 700;
+}
+
+strong {
+  text-transform: capitalize;
+  font-size: 35px;
+  line-height: 38px;
+}
+
+.title {
+  font-size: 30px;
+  color: white;
+  margin-top: 5px;
+}
+
+.year {
+  font-size: 18px;
+  margin-bottom: 0px;
+  font-family: "Permanent Marker", cursive;
+}
+
+.push {
+  padding-top: 40px;
+}
